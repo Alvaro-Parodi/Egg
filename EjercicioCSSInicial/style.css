@@ -1,0 +1,56 @@
+.texto{
+    color: red;
+}
+.hola{
+    background-color: black;
+    height: 30px;
+}
+.foto{
+    border: 5px solid black; 
+}
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fuente{
+    font-size: 20px;
+}
+.boton:hover{
+    box-shadow: 1px 1px 5px black;
+}
+.link:active{
+
+    color: green;
+}
+.link{
+    color: black;
+}
+.bloque{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    right: 50%;
+    position: absolute;
+}
+.tres{
+    color: blueviolet;
+    font-size: 20px;
+}
+.siete{
+    color: red;
+    font-size: 30px;
+}
+.cuatro{
+    color: yellowgreen;
+    font-size: 40px;
+}
+.Mirar:hover{
+color: green;
+}
+.Mirar{
+    color: red;
+}
+.negrita{
+    font-weight: bold;
+}

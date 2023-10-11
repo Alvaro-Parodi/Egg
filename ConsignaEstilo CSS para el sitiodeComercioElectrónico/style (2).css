@@ -1,0 +1,72 @@
+.barradenavegacion{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    }
+    .barradenavegacion a{
+        color: white;
+        text-decoration: none;
+    }
+    .nav-link{
+    margin: 5px;
+    padding: 10px 15px;
+    }
+    .nav-link:hover{
+        color: white;
+    }
+    #inicio{
+        margin-left: -950px;
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        }
+    
+    .imagen {
+        width: 90%;
+        height: 80%;
+        margin-top: -30px;
+        box-shadow: 1px 1px 6px black;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        box-shadow: 2px 1px 4px black;
+        height: 55%;
+        width: 70%;
+        padding: 65px;
+        margin: 0;
+    }
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        box-shadow: 2px 1px 4px black;
+        height: 55%;
+        width: 70%;
+        padding: 65px;
+        margin: 0;
+    }
+    .final{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 15px;
+    }
+    .boton1{
+        color: black;
+        background-color: pink;
+        position: absolute;
+        margin-top: -13px;
+        
+    }
+    .boton2{
+        color: white;
+        background-color: blueviolet;
+        position: absolute;
+        margin-top: -13px;
+    }
+    
+    
